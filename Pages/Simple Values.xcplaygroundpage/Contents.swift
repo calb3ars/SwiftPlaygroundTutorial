@@ -53,7 +53,10 @@ let apples = 3
 let oranges = 5
 let appleSummary = "I have \(apples) apples."
 let fruitSummary = "I have \(apples + oranges) pieces of fruit."
-
+let hunterPenceNumber = 8
+let busterPoseyNumber = 28
+let announcement = "Hunter Pence's number is \(hunterPenceNumber)."
+let pP = "Hunter and Buster are \(hunterPenceNumber + busterPoseyNumber)."
 //: - Experiment:
 //: Use `\()` to include a floating-point calculation in a string and to include someone’s name in a greeting.
 //:
@@ -61,6 +64,11 @@ let fruitSummary = "I have \(apples + oranges) pieces of fruit."
 //:
 var shoppingList = ["catfish", "water", "tulips", "blue paint"]
 shoppingList[1] = "bottle of water"
+
+var packingList = ["laptop", "toothbrush", "contacts case", "clothes"]
+var playerNumbers = [2,12,8,28]
+packingList[2]
+String(playerNumbers[1])
 
 var occupations = [
     "Malcolm": "Captain",
@@ -72,6 +80,7 @@ occupations["Jayne"] = "Public Relations"
 //:
 let emptyArray = [String]()
 let emptyDictionary = [String: Float]()
+let giantsRoster = [String]()
 
 //: If type information can be inferred, you can write an empty array as `[]` and an empty dictionary as `[:]`—for example, when you set a new value for a variable or pass an argument to a function.
 //:

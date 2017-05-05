@@ -13,6 +13,8 @@ for score in individualScores {
 }
 print(teamScore)
 
+let gameResults = ["win", "loss", "win", "win", "loss", "win"]
+
 //: In an `if` statement, the conditional must be a Boolean expression—this means that code such as `if score { ... }` is an error, not an implicit comparison to zero.
 //:
 //: You can use `if` and `let` together to work with values that might be missing. These values are represented as optionals. An optional value either contains a value or contains `nil` to indicate that a value is missing. Write a question mark (`?`) after the type of a value to mark the value as optional.
